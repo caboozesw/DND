@@ -1,1 +1,2 @@
-Contacts
+READ_PHONE_STATE - This permission is required to be able to know when the call/sms comes in and who is calling
+READ_CONTACTS    - This permission is required to perform lookups of the phone number against contacts in one or more groups
