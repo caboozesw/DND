@@ -1,9 +1,28 @@
-Starting Mar 9, 2019 Google bans apps with CallLog and SendSMS permissions. The claim these to be dangerous permissions and only allow certain types of apps to get an exlussion to obtain these permissions. The CallLog permissions is what's needed to identify incoming calls. While the SendSMS permission is required to be able to send SMS, or auto-respond.
+<HTML>
+<HEAD>
+<TITLE>Permissions for Silence App</TITLE>
+</HEAD>
 
-We have tried to obtain an exceptions for Silence, claiming it to be a legitimate use case for these permissions. Yet each time Google has responded with a denial, without clarifying the reason. In light of this, any update, whether bug fix or a feature update, must comply with this new policy.
+<h2>Permission Changes</h2>
 
-To read more about this Google Policy change, please see:
+<p>Starting Mar 9, 2019 Google bans apps with CallLog and SendSMS permissions. They claim these to be dangerous permissions and only allow certain types of apps to get an exclussion to obtain these permissions. The CallLog permissions is what's needed to identify incoming calls. While the SendSMS permission is required to be able to send SMS, or auto-respond.</p>
 
-https://play.google.com/about/privacy-security-deception/permissions/
-https://www.reddit.com/r/androiddev/comments/anc3xa/im_frustrated_from_google_read_call_log_permission/
+<p>We have tried to obtain an exceptions for Silence, claiming it to be a legitimate use case for these permissions. Yet each time Google has responded with a denial, without clarifying the reason. In light of this, any update, whether bug fix or a feature update, must comply with this new policy. And the latest version of the app has the following features removed to comply with this policy:</p>
+<ul>
+ <li>Call identification via group. This is now restricted to Favorites only.</li>
+ <li>Flexible repeated call options can't be supported without caller id. Basic repeated call feature is supported via standard DND api.</li>
+ <li>Sending of SMS in response to incoming calls or SMS isn't possible anymore.</li>
+</ul>
 
+<p>We are looking at alternatives for implementing the listed features. Possible choices can include a companion app published via non Google store. We will make every attempt to get removed functionality re-integrated, if practically possible. Thank you for your support and understanding.</p>
+
+<p>To read more about this Google Policy change, please see:</p>
+
+<a href="https://play.google.com/about/privacy-security-deception/permissions/">Googles policy change</a>
+<br>
+<a href="https://www.reddit.com/r/androiddev/comments/anc3xa/im_frustrated_from_google_read_call_log_permission/">Redit Discussion</a>
+
+
+<p>If you have any questions or  concerns, you may contact us using the information below:</p>
+<p>By e-mail: caboozesw@gmail.com</p>
+<p>We reserve the right to make changes to this policy. Any changes to this policy will be posted.</p>
